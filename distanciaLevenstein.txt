@@ -1,0 +1,10 @@
+Dado una cadena cuantos cambios necesitamos hacerle a una palabra 
+para transformarla en otra
+
+CASA -> COSAS
+
+Se utilizará una matriz 
+Tres operaciones
+Reemplazo - Si el cararcter es igual pasa la diagonal igual
+Inserción
+Borrar
