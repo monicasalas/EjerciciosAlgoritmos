@@ -39,26 +39,3 @@ const result = depositProfit(100, 20, 170)
 console.log(`Son ${result} años para alcanzar el umbral deseado`)
 =======
 
-aumento = 0
-var fecha = new Date([2021, 08, 28]);
-
-fecha_actualizada = new Date(2024, 07, 21)
-
-function depositProfit(deposit, rate, threshold){
-    aumento = deposit * rate
-    if (fecha_actualizada > fecha){
-        console.log('Algo')
-        let transcurrido = fecha_actualizada - fecha
-        for(let i=0; i == transcurrido; i++){
-            transcurrido = aumento + deposit 
-            console.log(transcurrido)
-        }
-
-    }
-    
-}
-
-
-const result = depositProfit(100, 0.20, 170)
-console.log(result)
->>>>>>> a640be37513d007db98627c6e55f6a35ee84749c
